@@ -9,6 +9,22 @@ These python scripts allow you to archive information that is not included in Tw
 Currently the scripts create CSV files of your followers and following lists.
 
 ###Implementation###
-You will need to create a Twitter API application and fill out the ```APP_KEY``` and ```APP_SECRET``` in the files.
-Also, be sure to fill out the username you wish to get the followers or following lists for.
-Finally, there is an optional advanced mode which saves other returned information such as time zone, language, and account creation date.  This is by default not enabled.
+
+####Python libraries####
+Required libraries:
+* [Twython](https://github.com/ryanmcgrath/twython)
+* [unicodecsv](https://github.com/jdunck/python-unicodecsv)
+If you have easy_install installed, use:
+```$ sudo easy_install twython```
+```$ sudo easy_install unicodecsv```
+
+####Twitter API####
+You will need to create a Twitter API application.
+You can do so at [https://apps.twitter.com/app/new](https://apps.twitter.com/app/new).
+You will need to fill out the ```APP_KEY``` and ```APP_SECRET``` from the Twitter application in the python files.
+
+####File settings####
+```APP_KEY``` - The app key from your Twitter application
+```APP_SECRET``` - The app secret from your Twitter application
+```USERNAME``` - The username you wish to get the information for
+```ADVANCED``` - Saves other returned information such as time zone and language; disabled by default
