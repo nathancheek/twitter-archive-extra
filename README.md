@@ -11,7 +11,7 @@ Currently the scripts create CSV files of your followers and following lists.
 ###Implementation###
 
 ####Python libraries####
-Required libraries:
+Required libraries and modules:
 * [Twython](https://github.com/ryanmcgrath/twython)
 * [unicodecsv](https://github.com/jdunck/python-unicodecsv)
 
